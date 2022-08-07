@@ -7,6 +7,8 @@ local Main = Window:NewTab("Main")
 local MainSection = Main:NewSection("Main")
 local BloxFruits = Window:NewTab("BloxFruits")
 local BloxFruitsSection = BloxFruits:NewSection("BloxFruits")
+MainSection:NewButton("Made By DevSpeed#0201", "Most Games", function()
+end)
 
 MainSection:NewButton("TriggerBot", "Most Games", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/VapingCat/Open-Source-TriggerBot/main/script.lua'))()
@@ -16,7 +18,7 @@ MainSection:NewButton("Esp", "Most Games", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/fatesc/fates-esp/main/main.lua'))()
 end)
 
-BloxFruitsSection:NewButton("BloxFruits", "Most Games", function()
+BloxFruitsSection:NewButton("BloxFruits", "", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
 end)
 
