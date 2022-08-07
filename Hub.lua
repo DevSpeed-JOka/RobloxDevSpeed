@@ -4,11 +4,9 @@ local Window = Library.CreateLib("Speed's Hub", "BloodTheme")
 -- Main
 
 local Main = Window:NewTab("Main")
-local MainSection = Main:NewSection("Main")
+local MainSection = Main:NewSection("Main --- Made By DevSpeed#0201")
 local BloxFruits = Window:NewTab("BloxFruits")
 local BloxFruitsSection = BloxFruits:NewSection("BloxFruits")
-MainSection:NewButton("Made By DevSpeed#0201", "Most Games", function()
-end)
 
 MainSection:NewButton("TriggerBot", "Most Games", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/VapingCat/Open-Source-TriggerBot/main/script.lua'))()
